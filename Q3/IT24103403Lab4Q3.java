@@ -19,7 +19,7 @@ public class IT24103403Lab4Q3 {
         // Read the input number from user
         number = num.nextInt();
 		
-		 /* if the number is positive
+	/* if the number is positive
         if (0 < number) {
             System.out.println("The number is: Positive"); 
         }
@@ -32,11 +32,12 @@ public class IT24103403Lab4Q3 {
             System.out.println("The number is: The number is Zero"); 
         }*/
 
-		//using Ternary Operator
+	//using Ternary Operator
         String result = (number > 0) ? "The number is: Positive" : 
                         (number < 0) ? "The number is: Negative" : 
                         "The number is: Zero";
-		// Print the result
+	
+	// Print the result
         System.out.println(result);
 
         // Close the Scanner
